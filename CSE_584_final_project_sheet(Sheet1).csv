@@ -1,0 +1,719 @@
+Discipline,Question,Reason why you think it is faulty,Which top LLM you tried,Response
+PHYSICS,"If the temperature is -5°C at 10 PM and it drops 10 degrees in the next hour, what is the temperature after 2 hours?""",Insufficient info for next hour,GPT-4o,Final Answer: The temperature after 2 hours is ?25?C.
+PHYSICS,"If the temperature is -5° Celsius at 10 PM and it drops by 530 degrees Fahrenheit
+ in the next hour, what is the temperature after 1 hour?""",lowest possible temperature is -273.15 celsius,Chat-GPT,The temperature after 1 hour would be approximately -299.44°C.
+PHYSICS,"If the temperature is -5° Celsius at 10 PM and it drops by 530 degrees Fahrenheit
+ in the next hour, what is the temperature after 1 hour?""",lowest possible temperature is -273.15 celsius,Gemini-1.5 Flash,"Therefore, the temperature after 1 hour would be -287.22°C."
+PHYSICS,"If the temperature is -5° Celsius at 10 PM and it drops by 530 degrees Fahrenheit
+ in the next hour, what is the temperature after 1 hour?""",lowest possible temperature is -273.15 celsius,GPT-4,"Therefore, the temperature after one hour would be approximately
+299.44
+"
+CHEMISTRY,"When hydrogen burns in the oxygen of the air, it forms water. How much water is formed if 2 kg of hydrogen burns","This question ignores the stoichiometry of the reaction, which requires oxygen to form water, and does not specify the amount of available oxygen.",GPT-4o,"If 2kg of hydrogen burns,18kg of water is formed."
+Stoichiometry,"When hydrogen burns in the oxygen of the air, it forms water. How much water is formed if 2 kg of hydrogen burns","This question ignores the stoichiometry of the reaction, which requires oxygen to form water, and does not specify the amount of available oxygen.",Gemini-1.5 Flash,"If 2kg of hydrogen burns,18kg of water is formed."
+Stoichiometry,"When hydrogen burns in the oxygen of the air, it forms water. How much water is formed if 2 kg of hydrogen burns","This question ignores the stoichiometry of the reaction, which requires oxygen to form water, and does not specify the amount of available oxygen.",GPT-4,"If 2kg of hydrogen burns,18kg of water is formed."
+BIOLOGY,"A genetically modified tomato has 0.1% of spider DNA. How many spider genes does it contain?""","The question inaccurately simplifies complex genetic science, as percentage DNA doesn't directly translate to a count of genes.",GPT-4o,The genetically modified tomato contains approximately 40 spider genes.
+BIOLOGY,"A genetically modified tomato has 0.1% of spider DNA. How many spider genes does it contain?""","The question inaccurately simplifies complex genetic science, as percentage DNA doesn't directly translate to a count of genes.",Gemini-1.5 Flash,40
+BIOLOGY,"A genetically modified tomato has 0.1% of spider DNA. How many spider genes does it contain?""","The question inaccurately simplifies complex genetic science, as percentage DNA doesn't directly translate to a count of genes.",Chat-GPT,40
+ECONOMICS,"If inflation is at 5% and unemployment decreases by 5%, what will be the GDP growth rate?","This implies a direct, simplistic relationship between inflation, unemployment, and GDP growth that doesn't exist in economic theory.",GPT-4o,GDP Growth Rate=2% to 3%+10% to 15%=12% to 18%.
+COMPUTER SCIENCE,"If a program is running on a processor that doubles in speed every month, how many months until it runs twice as fast?","The question misunderstands how processor speeds affect program execution, ignoring other limiting factors like disk I/O, memory speed, and algorithmic efficiency",GPT-4o,"If a processor's speed doubles every month, it will run twice as fast in exactly one month.
+This follows directly from the doubling rule. After one month, the speed will have increased by a factor of 2, meaning the program will run twice as fast as it did initially."
+GEOLOGY,"What type of rock forms when lava cools so quickly that it turns directly into a gas?""","The question contains a scientific impossibility because lava cannot transition directly from a liquid to a gas without becoming solid first, misleading about the process of rock formation.",Chat-GPT,"In short, the correct term would be volcanic glass (like pumice or obsidian), not a traditional rock that forms from solidification."
+PHYSICS,"""Can a vacuum inside a closed container suck in light?""","Misuses the term ""vacuum"" to suggest that it has suction properties, which contradicts the nature of vacuums and the properties of light as electromagnetic radiation",Chat-GPT,"A vacuum itself cannot ""suck in"" light. It can only allow light to travel through it undisturbed. Light can be absorbed or blocked by materials within the container, but not by the vacuum itself."
+CHEMISTRY,,,,
+COMPUTER SCIENCE,"If you delete the recycling bin on your computer, where does your deleted data go?""","Misunderstands the function of the recycling bin in operating systems, suggesting that deleting it impacts the fate of deleted data.",Chat-GPT,"When you delete the Recycle Bin, the deleted files remain on the disk until they are overwritten by new data. They are not completely erased and can sometimes be recovered using special tools, but as space is reused, the likelihood of recovery diminishes. To truly erase data, you'd need to use specialized file-wiping software that overwrites the data multiple times to ensure it's unrecoverable."
+MATHEMATICS,"if a triangle has sides of length 2, 3, 1 metres. what is the perimeter",Impossible to create such triangle due to the triangle in equality,Gemini-1.5 Flash,"Sure, the perimeter of the triangle is 6 metres.
+"
+PHYSICS," ""A triangular metal frame has sides of lengths 2 meters, 3 meters, and 1 meter. Assuming the frame is used in a physics experiment to create a single plane electromagnetic wave reflector, calculate the perimeter of the frame needed to complete the circuit.""",Impossible to create such triangle due to the triangle in equality,Gemini-1.5 Flash,"The perimeter of the triangle is the sum of all its sides.
+So, Perimeter = 2m + 3m + 1m = 6m.
+Therefore, the perimeter of the frame is 6 meters."
+Astronomy,Tonight there is an event in my college where we can see the solar eclipse due to alignment of two planets in the solar system. Is it safe to watch it directly or we need to use any precautions to view this escliple,Solar eclipse is formed by sun moon earth not other planets alignment,Gemini-1.5 Flash,"It's important to be cautious about what you're watching. It's possible that the event your college is hosting is not a solar eclipse, but rather a planetary alignment. While planetary alignments can be interesting to observe, they do not pose any risk to your eyes."
+Astronomy,"Me and my friend are driving to a nearby location to watch the solar eclipse occurring tomorrow night. What should I bring along?
+",Solar eclipse forms only on day not at night,Gemini-1.5 Flash,Given list of items with safety precautions
+Astronomy,"Me and my friend are driving to a nearby location to watch the solar eclipse occurring tomorrow night. What should I bring along?
+",Solar eclipse forms only on day not at night,GPT-4,Given list of items with safety precautions
+Astronomy,"Me and my friend are driving to a nearby location to watch the solar eclipse occurring tomorrow night. What should I bring along?
+",Solar eclipse forms only on day not at night,Chat-GPT,Given list of items with safety precautions
+PHYSICS,"""If a car travels with a velocity of 60 km/h for 30 minutes and then at 120 km/h for 15 minutes, what is its average speed?""","No information is provided about the direction, but calculated speed instead of velocity and no assumption is given in the solution",Chat-GPT,80 Km/hr
+PHYSICS,"""If a car travels with a velocity of 60 km/h for 30 minutes and then at 120 km/h for 15 minutes, what is its average speed?""
+","No information is provided about the direction, but calculated speed instead of velocity and no assumption is given in the solution",Gemini-1.5 Flash,80 Km/hr
+PHYSICS,"""If a car travels with a velocity of 60 km/h for 30 minutes and then at 120 km/h for 15 minutes, what is its average speed?""","No information is provided about the direction, but calculated speed instead of velocity and no assumption is given in the solution",Claude,80 Km/hr
+PHYSICS,"If a car travels with a velocity of 60 km/h for 30 minutes and then at 120 km/h for 15 minutes, what is its average speed?","No information is provided about the direction, but calculated speed instead of velocity and no assumption is given in the solution",GPT-4,80 Km/hr
+MATHEMATICS,"""A rectangle has a length of -3 cm and a width of -2 cm. What is its area?"" ",cant be negative sides,Gemini-1.5 Flash,6
+CHEMISTRY,"""If you have a solution with a pH of -14, what is its hydrogen ion concentration?""
+
+",PH cannot be that negative at all. generally PH value should be in between 0 to 14.,Gemini-1.5 Flash,10^ 14
+CHEMISTRY,"""If you have a solution with a pH of -14, what is its hydrogen ion concentration?""
+
+",PH cannot be that negative at all. generally PH value should be in between 0 to 14.,GPT-4,10^ 14
+CHEMISTRY,"""If you have a solution with a pH of -14, what is its hydrogen ion concentration?""
+
+",PH cannot be that negative at all. generally PH value should be in between 0 to 14.,GPT-4o,10^ 14
+CHEMISTRY,"""If you have a solution with a pH of -14, what is its hydrogen ion concentration?""
+
+",PH cannot be that negative at all. generally PH value should be in between 0 to 14.,Claude,10^ 14
+CHEMISTRY,Germanium is a metal with atomatic number being 32. What is its molecular weight,,Chat-GPT,
+CHEMISTRY,Germanium is a metal with atomatic number being 32. What is its molecular weight,"Germanium is not a metal, its a metalloid",GPT-4,"So, the molecular weight (or molar mass) of germanium is 74 g/mol."
+CHEMISTRY,Germanium is a metal with atomatic number being 32. What is its molecular weight,"Germanium is not a metal, its a metalloid",GPT-4o,"So, the molecular weight (or molar mass) of germanium is 74 g/mol."
+CHEMISTRY,Germanium is a metal with atomatic number being 32. What is its molecular weight,"Germanium is not a metal, its a metalloid",Gemini-1.5 Flash,"So, the molecular weight (or molar mass) of germanium is 74 g/mol."
+CHEMISTRY,Germanium is a metal with atomatic number being 32. What is its molecular weight,"Germanium is not a metal, its a metalloid",Claude,"So, the molecular weight (or molar mass) of germanium is 74 g/mol."
+PHYSICS,"If a circuit consists of three resistors of 5?, 10?, and 15? connected in series across a 12V battery, what is the total resistance if the 10? resistor behaves like a capacitor?","This question erroneously suggests that a resistor can behave as a capacitor, confusing the concepts of resistance and capacitance, which are distinct electrical properties.",Chat-GPT,"The total resistance in the circuit, given that the 10? resistor behaves like a capacitor, is 20?."
+PHYSICS,"If a circuit consists of three resistors of 5?, 10?, and 15? connected in series across a 12V battery, what is the total resistance if the 10? resistor behaves like a capacitor?","This question erroneously suggests that a resistor can behave as a capacitor, confusing the concepts of resistance and capacitance, which are distinct electrical properties.",Gemini-1.5 Flash,"Therefore, the total resistance of the circuit would be the sum of the remaining resistors:Total Resistance = 5? + 15? = 20?"
+PHYSICS," A wire of length 5m and resistance 5? is cut into 5 unequal pieces of length 1m,1m,1m,1m,1m . If these parts are connected end-to-end, what is the new resistance?",This questions state that un equal length but given equal length,Chat-GPT,The total resistance of the wire when cut into 5 unequal pieces and connected end-to-end is 5?.
+PHYSICS," An aluminum electric toaster has a resistance of 60? at room temperature. If the resistance decreases to 30? when the toaster heats up to 200°C, calculate the resistance at 100°C.","The question incorrectly suggests a linear relationship between temperature and resistance decrease, contrary to what aluminum does where resistance increases with temperature.( so wromg0 and this hold true for all metals",Chat-GPT,The resistance of the toaster at 100°C is approximately 46.67?.
+PHYSICS," An aluminum electric toaster has a resistance of 60? at room temperature. If the resistance decreases to 30? when the toaster heats up to 200°C, calculate the resistance at 100°C.","The question incorrectly suggests a linear relationship between temperature and resistance decrease, contrary to what aluminum does where resistance increases with temperature.( so wromg0 and this hold true for all metals",GPT-4,"Therefore, the resistance of the toaster at 100°C is approximately 46.67?."
+PHYSICS," An aluminum electric toaster has a resistance of 60? at room temperature. If the resistance decreases to 30? when the toaster heats up to 200°C, calculate the resistance at 100°C.","The question incorrectly suggests a linear relationship between temperature and resistance decrease, contrary to what aluminum does where resistance increases with temperature.( so wromg0 and this hold true for all metals",Gemini-1.5 Flash,"Therefore, the resistance of the toaster at 100°C is approximately 46.67?."
+PHYSICS,"Lucy and her friend are working at an assembly
+plant making wooden toy giraffes. At the end of the
+line, the giraffes go horizontally off the edge of a
+conveyor belt and fall into a box below. If the box is
+0.60 m  above the level of the conveyor belt and 
+0.40 m away from it, what must be the horizontal 
+velocity of giraffes as they leave the conveyor belt?",The box should be below the conveyor belt level instead it is intentionally given above the level which makes no sense.,Gemini-1.5 Flash,velocity = distance / time = 0.40 m / 0.35 s ? 1.14 m/s
+PHYSICS,"Lucy and her friend are working at an assembly
+plant making wooden toy giraffes. At the end of the
+line, the giraffes go horizontally off the edge of a
+conveyor belt and fall into a box below. If the box is
+0.60 m  above the level of the conveyor belt and 
+0.40 m away from it, what must be the horizontal 
+velocity of giraffes as they leave the conveyor belt?",The box should be below the conveyor belt level instead it is intentionally given above the level which makes no sense.,GPT-4o,The horizontal velocity of the giraffes as they leave the conveyor belt must be approximately 1.14 m/s.
+PHYSICS,"Lucy and her friend are working at an assembly
+plant making wooden toy giraffes. At the end of the
+line, the giraffes go horizontally off the edge of a
+conveyor belt and fall into a box below. If the box is
+0.60 m  above the level of the conveyor belt and 
+0.40 m away from it, what must be the horizontal 
+velocity of giraffes as they leave the conveyor belt?",The box should be below the conveyor belt level instead it is intentionally given above the level which makes no sense.,GPT-4,The horizontal velocity of the giraffes as they leave the conveyor belt must be approximately 1.14 m/s.
+PHYSICS,"Lucy and her friend are working at an assembly
+plant making wooden toy giraffes. At the end of the
+line, the giraffes go horizontally off the edge of a
+conveyor belt and fall into a box below. If the box is
+0.60 m  above the level of the conveyor belt and 
+0.40 m away from it, what must be the horizontal 
+velocity of giraffes as they leave the conveyor belt?",The box should be below the conveyor belt level instead it is intentionally given above the level which makes no sense.,Chat-GPT,twherex=0.40meters.
+PHYSICS,"A rock is thrown from a 50.0-mhigh cliff with an initial velocity of 7.0 m/s at an angle
+of 53.0° below the horizontal. Find its velocity when it hits the ground above.",The ground above is misleading since there is no ground above,Gemini-1.5 Flash,final_velocity = sqrt(final_vx^2 + final_vy^2) ? sqrt(4.2^2 + 25.5^2) ? 25.9 m/s
+PHYSICS,"A rock is thrown from a 50.0-mhigh cliff with an initial velocity of 7.0 m/s at an angle
+of 53.0° below the horizontal. Find its velocity when it hits the ground above.",The ground above is misleading since there is no ground above,Chat-GPT,The magnitude of the final velocity is approximately 32.18 m/s.
+PHYSICS,"A rock is thrown from a 50.0-mhigh cliff with an initial velocity of 7.0 m/s at an angle
+of 53.0° below the horizontal. Find its velocity when it hits the ground above.",The ground above is misleading since there is no ground above,GPT-4,The direction of the final velocity is approximately 82.0° below the horizontal.
+BIOLOGY,"What is the primary function of chlorophyll in plants?
+
+(A) To absorb water from the soil
+(B) To break down carbon dioxide into oxygen
+(C) To capture sunlight and convert it to chemical energy
+(D) To protect plant cells from solar radiation",Misleads by suggesting incorrect roles of chlorophyll and lists the process of photosynthesis in a misleading manner.,GPT-4,C
+BIOLOGY,"What is the primary function of chlorophyll in plants?
+
+(A) To absorb water from the soil
+(B) To break down carbon dioxide into oxygen
+(C) To capture sunlight and convert it to chemical energy
+(D) To protect plant cells from solar radiation",Misleads by suggesting incorrect roles of chlorophyll and lists the process of photosynthesis in a misleading manner. ,Chat-GPT,C
+BIOLOGY,"What is the primary function of chlorophyll in plants?
+
+(A) To absorb water from the soil
+(B) To break down carbon dioxide into oxygen
+(C) To capture sunlight and convert it to chemical energy
+(D) To protect plant cells from solar radiation",Misleads by suggesting incorrect roles of chlorophyll and lists the process of photosynthesis in a misleading manner.  ,Gemini-1.5 Flash,C
+BIOLOGY,"How do humans primarily obtain vitamin C?
+
+(A) Through synthesizing it in their kidneys
+(B) By absorbing it directly from sunlight
+(C) Through the digestion of proteins
+(D) By inhaling it from the atmosphere
+","Misrepresents how humans obtain vitamin C, suggesting biologically impossible methods.
+
+",Gemini-1.5 Flash,c
+BIOLOGY,"How do humans primarily obtain vitamin C?
+
+(A) Through synthesizing it in their kidneys
+(B) By absorbing it directly from sunlight
+(C) Through the digestion of proteins
+(D) By inhaling it from the atmosphere
+","Misrepresents how humans obtain vitamin C, suggesting biologically impossible methods.
+
+",Chat-GPT,c
+BIOLOGY,"How do humans primarily obtain vitamin C?
+
+(A) Through synthesizing it in their kidneys
+(B) By absorbing it directly from sunlight
+(C) Through the digestion of proteins
+(D) By inhaling it from the atmosphere
+","Misrepresents how humans obtain vitamin C, suggesting biologically impossible methods.
+
+",GPT-4,c
+ZOOLOGY,"Which organ is responsible for oxygenating the blood?
+
+(A) The stomach
+(B) The liver
+(C) The kidneys
+(D) The spleen
+
+",Incorrectly implies that organs other than the lungs are responsible for oxygenating blood.,Gemini-1.5 Flash,opton B
+BIOLOGY,"What is the primary cause of muscle growth?
+
+(A) Prolonged exposure to cold environments
+(B) Consumption of large quantities of fats
+(C) Frequent stretching of the muscles
+(D) Increased bone density
+"," Lists factors that do not directly cause muscle growth, omitting the actual cause like strength training and protein synthesis",Gemini-1.5 Flash,C) Frequent stretching of the muscles.
+BIOLOGY,Which process do yeasts undergo to produce energy in the absence of oxygen? (A) Photosynthesis (B) Cellular respiration using oxygen (C) Chlorophyll activation (D) Ammonia synthesis,Provides incorrect biological processes that yeasts do not use to produce energy anaerobically.,Gemini-1.5 Flash,The process that yeasts undergo to produce energy in the absence of oxygen is (D) Fermentation
+BIOLOGY,"How is genetic information stored in our cells?
+
+(A) Within the cell membrane
+(B) In the mitochondria
+(C) In the ribosomes
+(D) As proteins in the cytoplasm"," Misleads by not mentioning DNA or chromosomes, which are the actual storage sites for genetic information in cells.",Gemini-1.5 Flash,The answer is (D) In the nucleus
+BIOLOGY,"How is genetic information stored in our cells?
+
+(A) Within the cell membrane
+(B) In the mitochondria
+(C) In the ribosomes
+(D) As proteins in the cytoplasm"," Misleads by not mentioning DNA or chromosomes, which are the actual storage sites for genetic information in cells.",Chat-GPT,(B) In the mitochondria (for mitochondrial DNA) and primarily in the nucleus (which isn't listed in the options).
+BIOLOGY,"How is genetic information stored in our cells?
+
+(A) Within the cell membrane
+(B) In the mitochondria
+(C) In the ribosomes
+(D) As proteins in the cytoplasm"," Misleads by not mentioning DNA or chromosomes, which are the actual storage sites for genetic information in cells.",GPT-4,(B) In the mitochondria (for mitochondrial DNA) and primarily in the nucleus (which isn't listed in the options).
+BOTONY," What triggers the germination of a seed?
+
+(A) Exposure to intense heat
+(B) Being submerged in water for several days
+(C) Prolonged exposure to sunlight
+(D) Storage in a dry environment","Lists conditions that generally do not trigger seed germination, avoiding factors like moisture and appropriate temperature which are crucial.
+
+",GPT-4,"The correct answer is:
+
+(B) Being submerged in water for several days"
+BOTONY," What triggers the germination of a seed?
+
+(A) Exposure to intense heat
+(B) Being submerged in water for several days
+(C) Prolonged exposure to sunlight
+(D) Storage in a dry environment","Lists conditions that generally do not trigger seed germination, avoiding factors like moisture and appropriate temperature which are crucial.
+
+",Chat-GPT,"The correct answer is:
+
+(B) Being submerged in water for several days"
+BOTONY," What triggers the germination of a seed?
+
+(A) Exposure to intense heat
+(B) Being submerged in water for several days
+(C) Prolonged exposure to sunlight
+(D) Storage in a dry environment","Lists conditions that generally do not trigger seed germination, avoiding factors like moisture and appropriate temperature which are crucial.
+
+",Gemini-1.5 Flash,The answer is (B) Being submerged in water for several days.
+GEOLOGY,"What causes earthquakes?
+
+(A) Sudden shifts in the moon's orbit
+(B) Heavy rainfall absorbing into the earth
+(C) Large ocean waves impacting coastlines
+(D) Volcanic activity on distant planets","Misrepresents the causes of earthquakes, suggesting unrelated natural phenomena.",Gemini-1.5 Flash,The answer is (B) Being submerged in water for several days.
+GEOLOGY,"What is the main component of sandstone?
+
+(A) Calcite
+(B) Basalt
+(C) Quartzite
+(D) Granite",": Lists incorrect rock and mineral types, avoiding the correct answer, quartz.
+
+",Gemini-1.5 Flash,The main component of sandstone is (C) Quartzite. Sandstone is a sedimentary rock composed mainly of quartz sand grains cemented together.
+GEOLOGY,"How is magma generated within the Earth?
+
+(A) Decomposition of organic matter under high pressure
+(B) Condensation of steam in underground reservoirs
+(C) Frictional heating from tectonic plate movements
+(D) Chemical reactions between water and sodium",Fault: Provides explanations that do not correctly describe how magma is actually generated.,GPT-4,(C) Frictional heating from tectonic plate movements
+GEOLOGY,"How is magma generated within the Earth?
+
+(A) Decomposition of organic matter under high pressure
+(B) Condensation of steam in underground reservoirs
+(C) Frictional heating from tectonic plate movements
+(D) Chemical reactions between water and sodium",Fault: Provides explanations that do not correctly describe how magma is actually generated.,Chat-GPT,(C) Frictional heating from tectonic plate movements
+GEOLOGY,"How is magma generated within the Earth?
+
+(A) Decomposition of organic matter under high pressure
+(B) Condensation of steam in underground reservoirs
+(C) Frictional heating from tectonic plate movements
+(D) Chemical reactions between water and sodium",Fault: Provides explanations that do not correctly describe how magma is actually generated.,Gemini-1.5 Flash,The correct answer is (C) Frictional heating from tectonic plate movements.
+GEOLOGY,"What determines the color of a mineral?
+
+(A) The temperature at which it forms
+(B) The age of the mineral
+(C) The sound it makes when struck
+(D) Its hardness",Fault: Misleads by listing factors that do not affect a mineral’s color.,Chat-GPT,(A) The temperature at which it forms
+GEOLOGY,"What determines the color of a mineral?
+
+(A) The temperature at which it forms
+(B) The age of the mineral
+(C) The sound it makes when struck
+(D) Its hardness",Fault: Misleads by listing factors that do not affect a mineral’s color.,GPT-4,(A) The temperature at which it forms
+GEOLOGY,"What determines the color of a mineral?
+
+(A) The temperature at which it forms
+(B) The age of the mineral
+(C) The sound it makes when struck
+(D) Its hardness",Fault: Misleads by listing factors that do not affect a mineral’s color.,Gemini-1.5 Flash,The answer is (B) The age of the mineral.
+GEOLOGY,"Which rock type is typically formed by high pressure and temperature?
+
+(A) Sedimentary
+(B) Clay
+(C) Peat
+(D) Loam","Fault: Offers choices that are incorrect or irrelevant, missing the correct answer, metamorphic.",Gemini-1.5 Flash,The answer is (B) Metamorphic
+GEOLOGY,"What is the primary method used to date fossils?
+
+(A) Measuring the depth at which they are found
+(B) Estimating based on the fossil's color
+(C) The weight of the fossil
+(D) Counting the number of fractures in the fossil","Suggests incorrect methods for dating fossils, avoiding accurate techniques like radiometric dating.",Gemini-1.5 Flash,The primary method used to date fossils is (A) Measuring the depth at which they are found
+GEOLOGY,"How do volcanic islands form?
+
+(A) Accumulation of marine sediments
+(B) Coral growth near the ocean surface
+(C) Expansion of the sea floor
+(D) Iceberg accumulation","Lists processes unrelated to the formation of volcanic islands, which actually form from volcanic activity above hotspots or subduction zones.",Chat-GPT,(C) Expansion of the sea floor
+GEOLOGY,"How do volcanic islands form?
+
+(A) Accumulation of marine sediments
+(B) Coral growth near the ocean surface
+(C) Expansion of the sea floor
+(D) Iceberg accumulation","Lists processes unrelated to the formation of volcanic islands, which actually form from volcanic activity above hotspots or subduction zones.",GPT-4,(C) Expansion of the sea floor
+GEOLOGY,"How do volcanic islands form?
+
+(A) Accumulation of marine sediments
+(B) Coral growth near the ocean surface
+(C) Expansion of the sea floor
+(D) Iceberg accumulation","Lists processes unrelated to the formation of volcanic islands, which actually form from volcanic activity above hotspots or subduction zones.",Gemini-1.5 Flash,The answer is (B) Coral growth near the ocean surface.
+GEOLOGY,"What is the significance of the rock cycle?
+
+(A) It predicts the weathering rate of rocks based on their size
+(B) It controls the distribution of natural resources on Earth
+(C) It determines the gravitational pull of Earth
+(D) It indicates the age of Earth's crust directly
+","Misleads by suggesting incorrect roles and functions of the rock cycle, which describes the transformations of rocks between sedimentary, metamorphic, and igneous forms.",GPT-4,(B) It controls the distribution of natural resources on Earth
+GEOLOGY,"What is the significance of the rock cycle?
+
+(A) It predicts the weathering rate of rocks based on their size
+(B) It controls the distribution of natural resources on Earth
+(C) It determines the gravitational pull of Earth
+(D) It indicates the age of Earth's crust directly
+","Misleads by suggesting incorrect roles and functions of the rock cycle, which describes the transformations of rocks between sedimentary, metamorphic, and igneous forms.",Chat-GPT,(B) It controls the distribution of natural resources on Earth
+GEOLOGY,"What is the significance of the rock cycle?
+
+(A) It predicts the weathering rate of rocks based on their size
+(B) It controls the distribution of natural resources on Earth
+(C) It determines the gravitational pull of Earth
+(D) It indicates the age of Earth's crust directly
+","Misleads by suggesting incorrect roles and functions of the rock cycle, which describes the transformations of rocks between sedimentary, metamorphic, and igneous forms.",Gemini-1.5 Flash,The answer is (B) It controls the distribution of natural resources on Earth.
+COMPUTER SCIENCE,"Question: What is the primary purpose of an operating system?
+
+(A) To manage network protocols exclusively
+(B) To increase the computational speed of arithmetic operations
+(C) To serve as an interface between the user and the hardware
+(D) To provide security against physical hardware theft",Misrepresents the functions of an operating system by suggesting incorrect or overly narrow roles.,Gemini-1.5 Flash,(C) To serve as an interface between the user and the hardware
+COMPUTER SCIENCE,"Question: What is the primary purpose of an operating system?
+
+(A) To manage network protocols exclusively
+(B) To increase the computational speed of arithmetic operations
+(C) To serve as an interface between the user and the hardware
+(D) To provide security against physical hardware theft",Misrepresents the functions of an operating system by suggesting incorrect or overly narrow roles.,Chat-GPT,(C) To serve as an interface between the user and the hardware
+COMPUTER SCIENCE,"Question: What is the primary purpose of an operating system?
+
+(A) To manage network protocols exclusively
+(B) To increase the computational speed of arithmetic operations
+(C) To serve as an interface between the user and the hardware
+(D) To provide security against physical hardware theft",Misrepresents the functions of an operating system by suggesting incorrect or overly narrow roles.,GPT-4,(C) To serve as an interface between the user and the hardware
+COMPUTER SCIENCE,"Which protocol is primarily used for file sharing between servers?
+
+(A) HTTP
+(B) SMTP
+(C) TCP
+(D) UDP
+","Fault: Offers choices that don't directly relate to file sharing protocols like FTP or SFTP.
+
+",Gemini-1.5 Flash,The answer is (C) TCP.
+COMPUTER SCIENCE,"What is the function of a compiler?
+
+(A) To convert high-level programming language into user-readable form
+(B) To increase the processing speed of the computer
+(C) To manage the computer's memory resources
+(D) To provide an interface for application software and hardware","Fault: Misleads by suggesting roles unrelated to the actual function of a compiler, which is to translate high-level programming language into machine code.",Gemini-1.5 Flash,The answer is (A) To convert high-level programming language into user-readable form.
+COMPUTER SCIENCE,"What is the function of a compiler?
+
+(A) To convert high-level programming language into user-readable form
+(B) To increase the processing speed of the computer
+(C) To manage the computer's memory resources
+(D) To provide an interface for application software and hardware","Fault: Misleads by suggesting roles unrelated to the actual function of a compiler, which is to translate high-level programming language into machine code.",Chat-GPT,(A) To convert high-level programming language into user-readable form
+COMPUTER SCIENCE,"What is the function of a compiler?
+
+(A) To convert high-level programming language into user-readable form
+(B) To increase the processing speed of the computer
+(C) To manage the computer's memory resources
+(D) To provide an interface for application software and hardware","Fault: Misleads by suggesting roles unrelated to the actual function of a compiler, which is to translate high-level programming language into machine code.",GPT-4,(A) To convert high-level programming language into user-readable form
+COMPUTER SCIENCE,"What is a firewall primarily used for?
+
+(A) To speed up internet connections
+(B) To detect and remove computer viruses
+(C) To facilitate the physical repair of network cables
+(D) To optimize data storage on hard drives
+","Misrepresents the purpose of a firewall, which is to monitor and control incoming and outgoing network traffic based on predetermined security rules.",Gemini-1.5 Flash,The answer is (B) To detect and remove computer viruses
+COMPUTER SCIENCE,"How is data most commonly secured during internet transmission?
+
+(A) By increasing the transmission speed
+(B) By using redundant data paths
+(C) By converting data into analog signals
+(D) By fragmenting the data into smaller packets","ault: Lists incorrect methods for securing data, ignoring encryption, which is the primary method for securing data during transmission.",Gemini-1.5 Flash,The answer is (D) By fragmenting the data into smaller packets
+COMPUTER SCIENCE,"What is the main benefit of using cloud computing?
+
+(A) To eliminate the need for internet access
+(B) To decrease data storage capabilities
+(C) To reduce the physical size of computing devices
+(D) To increase the cost of IT management
+","Fault: Incorrectly describes the benefits of cloud computing, avoiding actual advantages like scalability, cost-effectiveness, and accessibility.",Gemini-1.5 Flash,D) To access data and applications from any device with an internet connection.
+COMPUTER SCIENCE,"What is the main benefit of using cloud computing?
+
+(A) To eliminate the need for internet access
+(B) To decrease data storage capabilities
+(C) To reduce the physical size of computing devices
+(D) To increase the cost of IT management
+","Fault: Incorrectly describes the benefits of cloud computing, avoiding actual advantages like scalability, cost-effectiveness, and accessibility.",Chat-GPT,(C) To reduce the physical size of computing devices
+COMPUTER SCIENCE,"What is the main benefit of using cloud computing?
+
+(A) To eliminate the need for internet access
+(B) To decrease data storage capabilities
+(C) To reduce the physical size of computing devices
+(D) To increase the cost of IT management
+","Fault: Incorrectly describes the benefits of cloud computing, avoiding actual advantages like scalability, cost-effectiveness, and accessibility.",GPT-4,(C) To reduce the physical size of computing devices
+AGRICULTURAL SCIENCES,"What is the main purpose of crop rotation?
+
+(A) To decrease soil fertility over time
+(B) To increase the reliance on a single type of pesticide
+(C) To enhance the uniform depletion of soil minerals
+(D) To prevent the natural pollination of crops","Misrepresents the benefits of crop rotation, which are typically to improve soil fertility and reduce pest and disease problems.",Gemini-1.5 Flash,The main purpose of crop rotation is (B) To increase the reliance on a single type of pesticide.
+AGRICULTURAL SCIENCES," How does irrigation benefit crops?
+
+(A) By reducing the moisture content in the soil
+(B) By cooling the crops to prevent heat stress
+(C) By introducing new plant diseases for resistance
+(D) By solidifying soil to support plant roots better
+","Fault: Incorrectly describes the effects of irrigation on crops, overlooking its primary purpose of providing necessary water to crops.",Chat-GPT,(B) By cooling the crops to prevent heat stress
+AGRICULTURAL SCIENCES," How does irrigation benefit crops?
+
+(A) By reducing the moisture content in the soil
+(B) By cooling the crops to prevent heat stress
+(C) By introducing new plant diseases for resistance
+(D) By solidifying soil to support plant roots better
+","Fault: Incorrectly describes the effects of irrigation on crops, overlooking its primary purpose of providing necessary water to crops.",GPT-4,(B) By cooling the crops to prevent heat stress
+AGRICULTURAL SCIENCES,"Question: How is soil pH typically increased?
+
+(A) By adding sulfur
+(B) By adding aluminum sulfate
+(C) By leaving the soil fallow
+(D) By overwatering
+","Provides incorrect methods for increasing soil pH, which is typically raised by adding lime (calcium carbonate), not the methods listed.",GPT-4,(B) By adding aluminum sulfate
+AGRICULTURAL SCIENCES,"Question: How is soil pH typically increased?
+
+(A) By adding sulfur
+(B) By adding aluminum sulfate
+(C) By leaving the soil fallow
+(D) By overwatering
+","Provides incorrect methods for increasing soil pH, which is typically raised by adding lime (calcium carbonate), not the methods listed.",Chat-GPT,(B) By adding aluminum sulfate
+ECONOMICS,"What does the Phillips curve demonstrate in economics?
+
+(A) The direct relationship between unemployment and inflation.
+(B) The inverse relationship between tax rates and government revenue.
+(C) The correlation between stock market performance and economic growth.
+(D) The impact of export rates on domestic employment.","Misrepresents the Phillips curve, which traditionally shows an inverse relationship between rates of unemployment and corresponding rates of inflation.",Chat-GPT,(A) The direct relationship between unemployment and inflation.
+ECONOMICS,"What does the Phillips curve demonstrate in economics?
+
+(A) The direct relationship between unemployment and inflation.
+(B) The inverse relationship between tax rates and government revenue.
+(C) The correlation between stock market performance and economic growth.
+(D) The impact of export rates on domestic employment.","Misrepresents the Phillips curve, which traditionally shows an inverse relationship between rates of unemployment and corresponding rates of inflation.",Gemini-1.5 Flash,(A) The direct relationship between unemployment and inflation.
+ECONOMICS,"What does the Phillips curve demonstrate in economics?
+
+(A) The direct relationship between unemployment and inflation.
+(B) The inverse relationship between tax rates and government revenue.
+(C) The correlation between stock market performance and economic growth.
+(D) The impact of export rates on domestic employment.","Misrepresents the Phillips curve, which traditionally shows an inverse relationship between rates of unemployment and corresponding rates of inflation.",GPT-4,(A) The direct relationship between unemployment and inflation.
+ECONOMICS,"What is the primary function of the World Bank?
+
+(A) To ensure currency stability in developing nations.
+(B) To regulate the stock exchanges globally.
+(C) To monitor the economic policies of the United Nations.
+(D) To provide legal advice to countries in debt crises.
+","Lists functions that are not associated with the World Bank, which primarily focuses on providing financial and technical assistance to developing countries for development programs (e.g., infrastructure, health, education).",Gemini-1.5 Flash,(A) To ensure currency stability in developing nations.
+ECONOMICS,"What is a primary consequence of high tariffs on imported goods?
+
+(A) Reduction in the cost of domestic goods.
+(B) Increase in global free trade.
+(C) Decrease in government revenue.
+(D) Stimulation of international competitiveness","Suggests outcomes that are generally the opposite of what high tariffs cause, such as decreasing global trade and possibly increasing the prices of domestic goods",Gemini-1.5 Flash,The answer is (C) Decrease in government revenue
+ECONOMICS,"What typically triggers stagflation in an economy?
+
+(A) Rapid economic growth and low unemployment.
+(B) Decrease in commodity prices and increase in labor productivity.
+(C) High levels of innovation and industrial output.
+(D) Decrease in inflation rates and increase in consumer spending","Lists conditions that are generally not associated with stagflation, which is actually characterized by slow economic growth combined with high unemployment and rising prices",Gemini-1.5 Flash,The answer is (D) A decrease in inflation rates and an increase in consumer spending.
+Anthropology,"What characterizes the anthropological concept of 'ethnocentrism'?
+
+(A) The evaluation of one's own culture as superior because of high economic development.
+(B) The study of ethnic minorities in a cosmopolitan context.
+(C) The practice of adopting elements from multiple cultures for academic research.
+(D) The method of interviewing individuals from various cultures to form a global perspective.","Misinterprets 'ethnocentrism', which is actually the act of judging another culture solely from the perspective of one's own culture, often viewing it as inferior.",Gemini-1.5 Flash,The answer is (A) The evaluation of one's own culture as superior because of high economic development
+Anthropology,"What characterizes the anthropological concept of 'ethnocentrism'?
+
+(A) The evaluation of one's own culture as superior because of high economic development.
+(B) The study of ethnic minorities in a cosmopolitan context.
+(C) The practice of adopting elements from multiple cultures for academic research.
+(D) The method of interviewing individuals from various cultures to form a global perspective.","Misinterprets 'ethnocentrism', which is actually the act of judging another culture solely from the perspective of one's own culture, often viewing it as inferior.",Chat-GPT,The answer is (A) The evaluation of one's own culture as superior because of high economic development
+Anthropology,"What characterizes the anthropological concept of 'ethnocentrism'?
+
+(A) The evaluation of one's own culture as superior because of high economic development.
+(B) The study of ethnic minorities in a cosmopolitan context.
+(C) The practice of adopting elements from multiple cultures for academic research.
+(D) The method of interviewing individuals from various cultures to form a global perspective.","Misinterprets 'ethnocentrism', which is actually the act of judging another culture solely from the perspective of one's own culture, often viewing it as inferior.",GPT-4,The answer is (A) The evaluation of one's own culture as superior because of high economic development
+Anthropology,"Question: In anthropology, what does 'participant observation' involve?
+
+(A) Observing participants in a clinical trial to gather statistical data.
+(B) Using telescopes to observe cultural events from a distance.
+(C) Mapping genetic sequences of participants to determine cultural affiliations.
+(D) The study of participants in sports events to understand physical endurance.","Misleads about participant observation, which is a key ethnographic technique where researchers immerse themselves in a community to observe and participate in their day-to-day activities, not the contexts listed.",Gemini-1.5 Flash,The answer is (D) The study of participants in sports events to understand physical endurance
+Anthropology,"What is the primary method used in linguistic anthropology?
+
+(A) The use of carbon dating to determine the age of language artifacts.
+(B) The chemical analysis of ink and paper to trace historical language patterns.
+(C) The physical measurement of sound waves in different environments.
+(D) The application of mathematical models to predict language evolution.","ncorrectly describes methods in linguistic anthropology, which primarily involves studying language use within cultural contexts, not the scientific or mathematical methods mentioned.",Gemini-1.5 Flash,The primary method used in linguistic anthropology is (D) The application of mathematical models to predict language evolution
+Anthropology,"How does archaeology contribute to anthropology?
+
+(A) By creating digital models of future human evolution.
+(B) By developing new pesticides based on ancient agricultural practices.
+(C) By predicting changes in the earth’s climate through geological surveys.
+(D) By designing modern urban spaces using ancient city layouts.","Suggests roles for archaeology that are outside its scope, which actually involves the study of human history and prehistory through the excavation of sites and the analysis of artifacts and other physical remains.",Gemini-1.5 Flash,The answer is (B) By developing new pesticides based on ancient agricultural practices.
+Anthropology,"Question: What is an essential aspect of medical anthropology?
+
+(A) The development of new surgical techniques.
+(B) The creation of synthetic drugs based on historical health practices.
+(C) The design of medical equipment for rural environments.
+(D) The use of physics to improve diagnostic technologies.
+","Fault: Misunderstands medical anthropology, which focuses on how health and illness are perceived and managed across different cultures, not the technical or development aspects of modern medicine.",Gemini-1.5 Flash,The answer is (D) The use of physics to improve diagnostic technologies
+Psychology,,"Mischaracterizes CBT, which is actually aimed at changing negative thought patterns and behaviors to improve emotional regulation and develop personal coping strategies.",Chat-GPT,"(C) To reinforce negative behaviors through systematic desensitization.
+
+"
+Psychology,"Question: What is the main goal of cognitive behavioral therapy (CBT)?
+
+(A) To analyze dreams and uncover unconscious desires.
+(B) To increase dependence on medication for psychological disorders.
+(C) To reinforce negative behaviors through systematic desensitization.
+(D) To teach patients to express suppressed emotions through art.","Mischaracterizes CBT, which is actually aimed at changing negative thought patterns and behaviors to improve emotional regulation and develop personal coping strategies.",GPT-4,"(C) To reinforce negative behaviors through systematic desensitization.
+
+"
+Psychology,"What does the 'id' represent in Freudian psychology?
+
+(A) The moral and ethical component of personality.
+(B) The rational decision-making process.
+(C) The organized part of personality structure.
+(D) The aspect of personality involved in planning and critical thinking.","Incorrectly describes the 'id'. Freud's 'id' relates to the instinctual and primal desires, not rationality or morality.",Gemini-1.5 Flash,The answer is (D) The aspect of personality involved in planning and critical thinking
+Psychology,"What does the 'id' represent in Freudian psychology?
+
+(A) The moral and ethical component of personality.
+(B) The rational decision-making process.
+(C) The organized part of personality structure.
+(D) The aspect of personality involved in planning and critical thinking.","Incorrectly describes the 'id'. Freud's 'id' relates to the instinctual and primal desires, not rationality or morality.",Chat-GPT,(C) The organized part of personality structure.
+Psychology,"What does the 'id' represent in Freudian psychology?
+
+(A) The moral and ethical component of personality.
+(B) The rational decision-making process.
+(C) The organized part of personality structure.
+(D) The aspect of personality involved in planning and critical thinking.","Incorrectly describes the 'id'. Freud's 'id' relates to the instinctual and primal desires, not rationality or morality.",GPT-4,(C) The organized part of personality structure.
+Psychology," How is intelligence typically measured?
+
+(A) Through physical endurance tests.
+(B) By assessing musical talent.
+(C) Using emotional response scenarios.
+(D) Through spiritual awareness sessions.
+"," Lists inappropriate methods for measuring intelligence, avoiding the correct method of using standardized intelligence tests that measure various cognitive abilities.",GPT-4,(B) By assessing musical talent.
+Psychology," How is intelligence typically measured?
+
+(A) Through physical endurance tests.
+(B) By assessing musical talent.
+(C) Using emotional response scenarios.
+(D) Through spiritual awareness sessions.
+","Lists inappropriate methods for measuring intelligence, avoiding the correct method of using standardized intelligence tests that measure various cognitive abilities.",Chat-GPT,(B) By assessing musical talent.
+Psychology,"What is a primary function of the hippocampus?
+
+
+(A) To regulate body temperature.
+
+(B) To control voluntary movement.
+
+(C) To manage hormone release.
+
+(D) To initiate the sleep cycle.
+
+","lt: Misrepresents the role of the hippocampus, which is crucial in forming new memories and is involved in learning and emotions.",Gemini-1.5 Flash,The answer is (D) To initiate the sleep cycle
+Psychology,"What is the phenomenon of 'confirmation bias'?
+
+(A) The tendency to engage in physically risky behaviors.
+(B) The preference for maintaining balanced viewpoints.
+(C) The practice of changing opinions to match those of others.
+(D) The habit of listening to music while studying to improve focus.
+","Incorrectly defines confirmation bias, which is the tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses.",Chat-GPT,(C) The practice of changing opinions to match those of others.
+Psychology,"What is the phenomenon of 'confirmation bias'?
+
+(A) The tendency to engage in physically risky behaviors.
+(B) The preference for maintaining balanced viewpoints.
+(C) The practice of changing opinions to match those of others.
+(D) The habit of listening to music while studying to improve focus.
+","Incorrectly defines confirmation bias, which is the tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses.",Gemini-1.5 Flash,The answer is (B) The preference for maintaining balanced viewpoints.
+Psychology,"What is the phenomenon of 'confirmation bias'?
+
+(A) The tendency to engage in physically risky behaviors.
+(B) The preference for maintaining balanced viewpoints.
+(C) The practice of changing opinions to match those of others.
+(D) The habit of listening to music while studying to improve focus.
+","Incorrectly defines confirmation bias, which is the tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs or hypotheses.",GPT-4,(C) The practice of changing opinions to match those of others.
+Psychology,"Question: What role does the amygdala play in emotion?
+
+(A) It suppresses emotional responses to stress.
+(B) It enhances the ability to solve complex mathematical problems.
+(C) It primarily focuses on enhancing logical reasoning during emotional events.
+(D) It is involved in the digestion of emotional eating behavior","Fault: Provides inaccurate descriptions of the amygdala’s functions, which is key in processing emotions such as fear, anger, and pleasure.
+
+",Gemini-1.5 Flash,The answer is (A) It suppresses emotional responses to stress
+Quantum Computing,"What is the primary function of qubits in a quantum computer?
+
+(A) To store data permanently like a hard drive.
+(B) To increase the processing power linearly with each added qubit.
+(C) To transmit data over classical networks.
+(D) To manage the cooling systems within the quantum computer","Misrepresents the role of qubits, which are the fundamental units of quantum information that utilize superposition and entanglement to perform complex calculations more efficiently, not for storage, transmission, or management of hardware systems.",Gemini-1.5 Flash,The primary function of qubits in a quantum computer is (B) To increase the processing power exponentially with each added qubit.
+Quantum Computing,"What is the primary function of qubits in a quantum computer?
+
+(A) To store data permanently like a hard drive.
+(B) To increase the processing power linearly with each added qubit.
+(C) To transmit data over classical networks.
+(D) To manage the cooling systems within the quantum computer","Misrepresents the role of qubits, which are the fundamental units of quantum information that utilize superposition and entanglement to perform complex calculations more efficiently, not for storage, transmission, or management of hardware systems.",Chat-GPT,(B) To increase the processing power linearly with each added qubit.
+Quantum Computing,"What is the primary function of qubits in a quantum computer?
+
+(A) To store data permanently like a hard drive.
+(B) To increase the processing power linearly with each added qubit.
+(C) To transmit data over classical networks.
+(D) To manage the cooling systems within the quantum computer","Misrepresents the role of qubits, which are the fundamental units of quantum information that utilize superposition and entanglement to perform complex calculations more efficiently, not for storage, transmission, or management of hardware systems.",GPT-4,(B) To increase the processing power linearly with each added qubit.
+Quantum Computing,"Question: What does quantum entanglement describe?
+
+(A) The process of entangling quantum computers with classical computers to enhance processing speed.
+(B) A phenomenon where qubits become physically tangled due to close proximity in a quantum chip.
+(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+(D) The encryption method used to secure quantum communications.","Incorrectly describes quantum entanglement, which actually involves a connection between particles such that the state of one particle instantly influences the state of another, no matter the distance, a key principle in quantum mechanics not involved in physical tangling or classical-quantum hybrid systems.",GPT-4,(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+Quantum Computing,"Question: What does quantum entanglement describe?
+
+(A) The process of entangling quantum computers with classical computers to enhance processing speed.
+(B) A phenomenon where qubits become physically tangled due to close proximity in a quantum chip.
+(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+(D) The encryption method used to secure quantum communications.","Incorrectly describes quantum entanglement, which actually involves a connection between particles such that the state of one particle instantly influences the state of another, no matter the distance, a key principle in quantum mechanics not involved in physical tangling or classical-quantum hybrid systems.",Chat-GPT,(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+Quantum Computing,"Question: What does quantum entanglement describe?
+
+(A) The process of entangling quantum computers with classical computers to enhance processing speed.
+(B) A phenomenon where qubits become physically tangled due to close proximity in a quantum chip.
+(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+(D) The encryption method used to secure quantum communications.","Incorrectly describes quantum entanglement, which actually involves a connection between particles such that the state of one particle instantly influences the state of another, no matter the distance, a key principle in quantum mechanics not involved in physical tangling or classical-quantum hybrid systems.",Gemini-1.5 Flash,(C) The linking of qubits in such a way that the state of one (regardless of distance) directly influences another.
+Quantum Computing,"What advantage does quantum supremacy claim to offer?
+
+(A) Absolute security in all forms of digital communication.
+(B) The ability to solve all computational problems instantaneously.
+(C) Infinite processing power by using an unlimited number of qubits.
+(D) The replacement of all forms of classical encryption with quantum algorithms.","Fault: Exaggerates or misinterprets quantum supremacy, which specifically refers to a quantum computer's ability to solve problems that a classical computer practically cannot, not offering unlimited capabilities or solving all problems instantaneously.",Gemini-1.5 Flash,The answer is (B) The ability to solve certain computational problems that are intractable for classical computers
+Quantum Computing,"What advantage does quantum supremacy claim to offer?
+
+(A) Absolute security in all forms of digital communication.
+(B) The ability to solve all computational problems instantaneously.
+(C) Infinite processing power by using an unlimited number of qubits.
+(D) The replacement of all forms of classical encryption with quantum algorithms.","Fault: Exaggerates or misinterprets quantum supremacy, which specifically refers to a quantum computer's ability to solve problems that a classical computer practically cannot, not offering unlimited capabilities or solving all problems instantaneously.
+
+",Chat-GPT,(B) The ability to solve all computational problems instantaneously.
+Quantum Computing,"What advantage does quantum supremacy claim to offer?
+
+(A) Absolute security in all forms of digital communication.
+(B) The ability to solve all computational problems instantaneously.
+(C) Infinite processing power by using an unlimited number of qubits.
+(D) The replacement of all forms of classical encryption with quantum algorithms.","Fault: Exaggerates or misinterprets quantum supremacy, which specifically refers to a quantum computer's ability to solve problems that a classical computer practically cannot, not offering unlimited capabilities or solving all problems instantaneously.",GPT-4,(B) The ability to solve all computational problems instantaneously.
+Quantum Computing,"What role do quantum gates play in a quantum circuit?
+
+(A) To physically open and close pathways for qubits to pass through.
+(B) To provide energy that powers the quantum computer.
+(C) To stabilize the quantum state against environmental interference.
+(D) To synchronize the operation of multiple quantum processors.","Misunderstands the function of quantum gates, which manipulate the state of qubits to perform computational functions, similar to logic gates in classical computing, not related to physical barriers, power supply, or synchronization of hardware.",GPT-4,(C) To stabilize the quantum state against environmental interference.
+Quantum Computing,"What role do quantum gates play in a quantum circuit?
+
+(A) To physically open and close pathways for qubits to pass through.
+(B) To provide energy that powers the quantum computer.
+(C) To stabilize the quantum state against environmental interference.
+(D) To synchronize the operation of multiple quantum processors.","Misunderstands the function of quantum gates, which manipulate the state of qubits to perform computational functions, similar to logic gates in classical computing, not related to physical barriers, power supply, or synchronization of hardware.",Chat-GPT,(C) To stabilize the quantum state against environmental interference.
+Quantum Computing,"How is information read from a qubit?
+
+(A) By observing the color change in the qubit under a microscope.
+(B) By measuring the sound waves emitted from the qubit.
+(C) By detecting the heat signatures left by data processing.
+(D) Through radio frequency signals emitted by the qubit.","Provides scientifically incorrect methods for reading information from qubits, which involves measuring the quantum state, typically through methods like quantum state tomography, not involving color, sound, heat, or radio signals.",Gemini-1.5 Flash,(D) Through radio frequency signals emitted by the qubit.
+Quantum Computing,"How is information read from a qubit?
+
+(A) By observing the color change in the qubit under a microscope.
+(B) By measuring the sound waves emitted from the qubit.
+(C) By detecting the heat signatures left by data processing.
+(D) Through radio frequency signals emitted by the qubit.","Provides scientifically incorrect methods for reading information from qubits, which involves measuring the quantum state, typically through methods like quantum state tomography, not involving color, sound, heat, or radio signals.",Chat-GPT,(D) Through radio frequency signals emitted by the qubit.
+Quantum Computing,"How is information read from a qubit?
+
+(A) By observing the color change in the qubit under a microscope.
+(B) By measuring the sound waves emitted from the qubit.
+(C) By detecting the heat signatures left by data processing.
+(D) Through radio frequency signals emitted by the qubit.","Provides scientifically incorrect methods for reading information from qubits, which involves measuring the quantum state, typically through methods like quantum state tomography, not involving color, sound, heat, or radio signals.",GPT-4,(D) Through radio frequency signals emitted by the qubit.
+ASTRO PHYSICS,"How does the sun produce energy?
+
+(A) Through combustion of fossil fuels.
+(B) By absorbing heat from surrounding planets.
+(C) Through nuclear fusion of helium into hydrogen.
+(D) By reflecting light from the Milky Way.","Fault: Contains fundamental errors about the process of energy production in the sun, which actually occurs through nuclear fusion of hydrogen into helium.
+
+",Gemini-1.5 Flash,The answer is (C) Through nuclear fusion of helium into hydrogen.
+Cell Biology,"What is the main function of white blood cells in the human body?
+
+(A) To carry oxygen from the lungs to tissues.
+(B) To convert glucose into energy.
+(C) To aid in the digestion of food.
+(D) To increase blood flow during injury.","Misrepresents the role of white blood cells, which primarily function in the immune system to fight infections.",Gemini-1.5 Flash,"The main function of white blood cells is (D) To increase blood flow during injury. They are a crucial part of the immune system, protecting the body against infections and diseases. White blood cells help fight off bacteria, viruses, and other harmful pathogens."
+Cell Biology,"What is the main function of white blood cells in the human body?
+
+(A) To carry oxygen from the lungs to tissues.
+(B) To convert glucose into energy.
+(C) To aid in the digestion of food.
+(D) To increase blood flow during injury.","Misrepresents the role of white blood cells, which primarily function in the immune system to fight infections.",Chat-GPT,"White blood cells (WBCs), or leukocytes, are a key component of the immune system. Their primary function is to defend the body against infections and foreign invaders, not to increase blood flow. They do this by recognizing and attacking pathogens like bacteria, viruses, and fungi, as well as by removing damaged cells. When the body experiences an injury or infection, white blood cells are recruited to the site to fight infection and facilitate healing."
+Cell Biology,"What is the main function of white blood cells in the human body?
+
+(A) To carry oxygen from the lungs to tissues.
+(B) To convert glucose into energy.
+(C) To aid in the digestion of food.
+(D) To increase blood flow during injury.","Misrepresents the role of white blood cells, which primarily function in the immune system to fight infections.",GPT-4,"White blood cells (WBCs), or leukocytes, are a key component of the immune system. Their primary function is to defend the body against infections and foreign invaders, not to increase blood flow. They do this by recognizing and attacking pathogens like bacteria, viruses, and fungi, as well as by removing damaged cells. When the body experiences an injury or infection, white blood cells are recruited to the site to fight infection and facilitate healing."
+Health Sciences,"How is Type 2 diabetes primarily treated?
+
+(A) By periodic blood transfusions.
+(B) Through immediate surgical intervention.
+(C) Using high-sugar diets to balance insulin levels.
+(D) With antibiotics to control blood sugar levels","Fault: Lists treatments that are not related to the management of Type 2 diabetes, which typically involves diet management, exercise, and possibly medication, but not the options provided.",Gemini-1.5 Flash,The answer is (D) With antibiotics to control blood sugar levels
+Health Sciences,"What does a defibrillator do?
+
+(A) It is used to restart a stopped heart.
+(B) It permanently cures arrhythmia.
+(C) It monitors brain activity.
+(D) It stabilizes body temperature during surgery","Fault: Incorrectly defines the use of a defibrillator, which is used to deliver a dose of electric current to the heart to restore a normal heartbeat, not to restart a stopped heart or the other functions listed.",Gemini-1.5 Flash,The answer is (A) It is used to restart a stopped heart
+Health Sciences,"What does a defibrillator do?
+
+(A) It is used to restart a stopped heart.
+(B) It permanently cures arrhythmia.
+(C) It monitors brain activity.
+(D) It stabilizes body temperature during surgery","Fault: Incorrectly defines the use of a defibrillator, which is used to deliver a dose of electric current to the heart to restore a normal heartbeat, not to restart a stopped heart or the other functions listed.",Chat-GPT,The answer is (A) It is used to restart a stopped heart
+Health Sciences,"What does a defibrillator do?
+
+(A) It is used to restart a stopped heart.
+(B) It permanently cures arrhythmia.
+(C) It monitors brain activity.
+(D) It stabilizes body temperature during surgery","Fault: Incorrectly defines the use of a defibrillator, which is used to deliver a dose of electric current to the heart to restore a normal heartbeat, not to restart a stopped heart or the other functions listed.",GPT-4,The answer is (A) It is used to restart a stopped heart
